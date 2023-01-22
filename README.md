@@ -75,10 +75,10 @@ samples, guidance on mobile development, and a full API reference.
   - [ ] Storage Service
   - [ ] UserMap Service
   - [ ] Notification Service
-  - [ ] Databases
-    - [ ] External Databases
-    - [ ] Local Database
-      - [x] Cache
+- [ ] Databases
+  - [ ] External Databases
+  - [ ] Local Database
+    - [x] Cache
 
 
 

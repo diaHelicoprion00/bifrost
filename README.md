@@ -1,4 +1,4 @@
-## bifrost
+## bifröst
 
 BIFRÖST is a social networking platform that connects students with mentors and 
 other students to get help with assignments and/or to form study groups.

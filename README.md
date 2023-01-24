@@ -62,6 +62,7 @@ samples, guidance on mobile development, and a full API reference.
   - [ ] Chat Repository
   - [ ] Search Repository
   - [ ] Authentication Repository
+  - [ ] User Repository
   - [ ] Storage Repository
   - [ ] UserMap Repository
   - [ ] Notification Repository

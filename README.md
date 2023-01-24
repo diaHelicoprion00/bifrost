@@ -37,14 +37,15 @@ samples, guidance on mobile development, and a full API reference.
 ├── lib
 │   └── main.dart
 ├── packages
-|   └── package_type
-│       └── package_1
-│           ├── lib
-│           │   ├── src
-│           │   │   └── package_1_base.dart
-│           │   └── package_1.dart
-│           └── test
-│               └── package_1_test.dart
+|   ├──  package_type_1
+│   │    ├── package_1
+│   │    │    ├── lib
+│   │    │    │   ├── src
+│   │    │    │   │   └── package_1_base.dart
+│   │    │    │   └── package_1.dart
+│   │    │    ├── test
+│   │    │    │   └── package_1_test.dart
+│   └── package_type_2    
 ├── test
 ├── pubspec.yaml
 └── README.md

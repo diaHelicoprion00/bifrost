@@ -4,6 +4,7 @@ BIFRÖST is a social networking platform that connects students with mentors and
 other students to get help with assignments and/or to form study groups.
 
 ## Requirements
+
 ### Minimum Viable Product
 * Sign up and Log in to user account
   * Create a user profile

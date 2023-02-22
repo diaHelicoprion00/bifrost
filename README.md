@@ -7,7 +7,7 @@ other students to get help with assignments and/or to form study groups.
 
 ### Minimum Viable Product
 * Given a user account
-  * Allow a new user to Sign up for Bifrost
+  * Allow a new user to Sign up 
   * Allow a new user to Log in
 
 * Given a user profile

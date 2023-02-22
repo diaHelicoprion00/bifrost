@@ -6,20 +6,27 @@ other students to get help with assignments and/or to form study groups.
 ## Requirements
 
 ### Minimum Viable Product
-* Sign up and Log in to user account
-  * Create a user profile
-    * User properties
-      * Username
-      * Major(s) and/or minor(s)
-      * Year
-      * Class
-      * Choose to become a mentor (optional)
-        * Mentor Properties
-          * List of Mentoring courses
-          * Availability (toggle)
-* Create a study group 
-  * Add study group to list of open study groups
-  * Delete study group from list of open study groups
+* Given a user account
+  * Allow a new user to Sign up for Bifrost
+  * Allow a new user to Log in
+
+* Given a user profile
+  * Add/Edit/Delete information on user profile
+  * User properties
+    * Username
+    * Major(s) and/or minor(s)
+    * Year
+    * Class
+   
+* Given a mentor profile
+  * Add/Edit/Delete information on mentor profile  
+  * Mentor Properties
+    * Regular Office Hours
+    * List of Mentoring courses
+    * Availability (toggle)
+
+* Given a study group
+  * Add/Delete study group to list of open study groups
   * Study group properties
     * Name
     * Course
@@ -28,35 +35,32 @@ other students to get help with assignments and/or to form study groups.
     * Member Count
     * Description (optional)
     * Access (open/closed)
-* Show a list of mentors that are available for a particular course
-* Show a list of study groups that are available for a particular course
-* Show a list of recent posts by users
-* Make a post:
-  * Asking for a mentor's assistance
-    * Add an Assist button (to establish a student-mentor connection)
-  * Asking to create or join a study group
-    * Start discussion thread under post
-* Allow direct messages between users
-  * Send and receive text
-  * Add attachments:
-    * Images
 
-### Synchronization with an API
-* Push to an API endpoint
-  * User Properties
-  * User messages
-  * Study Group Properties
-  * Study Group List
-  * Mentor Properties
-  * Mentors list
-* Pull from an API endpoint
-  * User Properties
-  * User messages
-  * Study Group Properties
-  * Study Group List
-  * Mentor Properties
-  * Mentors list
+* Given a search view
+  * Show a list of mentors that are available for a particular course
+  * Show a list of study groups that are available for a particular course
+  * Show a list of recent posts by users
+
+* Given a post
+  * Show Assist button to establish student-mentor connection
+  * Show button to join a study group
+  * Show button to start discussion thread under post
   
+* Given a direct message chat between 2 users
+  * Allow users to send and receive text messages
+  * Allow users to send and receive images
+
+## Enhancements
+
+* Given a direct message chat between 2 users
+  * Allow users to send and receive images
+  * Allow users to send and receive geolocation data
+  
+* Given a group message chat between N users
+  * Allow users to send and receive text messages
+  * Allow users to send and receive images
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

@@ -44,11 +44,9 @@ other students to get help with assignments and/or to form study groups.
   * Allow users to send and receive text messages
 
 ## Enhancements
-
 * Given a direct message chat between 2 users
   * Allow users to send and receive images
   * Allow users to send and receive geolocation data
-  
 * Given a group message chat between N users
   * Allow users to send and receive text messages
   * Allow users to send and receive images

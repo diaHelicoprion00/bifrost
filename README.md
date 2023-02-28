@@ -19,11 +19,27 @@ other students to get help with assignments and/or to form study groups.
 * Given a mentor profile
   * Add/Edit/Delete information on mentor profile  
   * Mentor Properties
+    * List of Mentoring courses
+* Given a study group
+  * Add/Delete study group to list of open study groups
+  * Study group properties
+    * Name
+    * Course
+    * Owner's email address
+* Given a list view
+  * Show a list of mentors that are available for a particular course
+  * Show a list of study groups that are available for a particular course
+  * Show a list of recent posts by users
+* Given a post
+  * Show an email address to contact a user
+
+## Enhancements
+* Given a mentor profile
+  * Mentor Properties
     * Regular Office Hours
     * List of Mentoring courses
     * Availability (toggle)
 * Given a study group
-  * Add/Delete study group to list of open study groups
   * Study group properties
     * Name
     * Course
@@ -32,25 +48,19 @@ other students to get help with assignments and/or to form study groups.
     * Member Count
     * Description (optional)
     * Access (open/closed)
-* Given a search view
-  * Show a list of mentors that are available for a particular course
-  * Show a list of study groups that are available for a particular course
-  * Show a list of recent posts by users
 * Given a post
   * Show Assist button to establish student-mentor connection
   * Show button to join a study group
   * Show button to start discussion thread under post
-* Given a direct message chat between 2 users
-  * Allow users to send and receive text messages
-
-## Enhancements
-* Given a direct message chat between 2 users
-  * Allow users to send and receive images
-  * Allow users to send and receive geolocation data
+* Given a search view
+  * Show a list of mentors that are available for a particular course
+  * Show a list of study groups that are available for a particular course
+  * Show a list of recent posts by users
 * Given a group message chat between N users
   * Allow users to send and receive text messages
   * Allow users to send and receive images
-
+  * Allow users to send and receive geolocation data
+  
 ## Getting Started
 
 This project is a starting point for a Flutter application.

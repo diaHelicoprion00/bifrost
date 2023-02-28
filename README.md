@@ -33,7 +33,7 @@ other students to get help with assignments and/or to form study groups.
 * Given a post
   * Show an email address to contact a user
 
-## Enhancements
+### Enhancements
 * Given a mentor profile
   * Mentor Properties
     * Regular Office Hours

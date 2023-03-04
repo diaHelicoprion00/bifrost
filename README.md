@@ -20,7 +20,8 @@ other students to get help with assignments and/or to form study groups.
 * Given a mentor profile
   * Add/Edit/Delete information on mentor profile  
   * Mentor Properties
-    * Mentor's Email Address
+    * Username
+    * Email Address
     * List of Mentoring courses
 * Given a study group
   * Add/Delete study group to list of open study groups

@@ -16,16 +16,18 @@ other students to get help with assignments and/or to form study groups.
     * Major(s) and/or minor(s)
     * Year
     * Class
+    * Email Address
 * Given a mentor profile
   * Add/Edit/Delete information on mentor profile  
   * Mentor Properties
+    * Mentor's Email Address
     * List of Mentoring courses
 * Given a study group
   * Add/Delete study group to list of open study groups
   * Study group properties
     * Name
     * Course
-    * Owner's email address
+    * Owner's Email Address
 * Given a list view
   * Show a list of mentors that are available for a particular course
   * Show a list of study groups that are available for a particular course

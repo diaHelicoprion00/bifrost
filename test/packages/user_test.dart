@@ -10,7 +10,7 @@ void main() {
 
     /// A test to ensure that the User model correctly stores user properties.
     test('correctly stores user properties', () {
-      final user = User(id: userId, name: userName, email: userEmail);
+      const user = User(id: userId, name: userName, email: userEmail);
       expect(user.id, userId);
       expect(user.name, userName);
       expect(user.email, userEmail);
@@ -18,8 +18,8 @@ void main() {
 
     /// A test to ensure that two User objects are correctly compared.
     test('correctly compares equal User objects', () {
-      expect(User(id: userId, name: userName, email: userEmail),
-          equals(User(id: userId, name: userName, email: userEmail)));
+      expect(const User(id: userId, name: userName, email: userEmail),
+          equals(const User(id: userId, name: userName, email: userEmail)));
     });
 
     /// A test to ensure that the isEmpty method works correctly for an empty user.
@@ -29,7 +29,7 @@ void main() {
 
     /// A test to ensure that the isEmpty method works correctly for a non-empty user.
     test('isEmpty returns false for a non-empty user', () {
-      final user = User(id: userId, name: userName, email: userEmail);
+      const user = User(id: userId, name: userName, email: userEmail);
       expect(user.isEmpty, isFalse);
     });
   });

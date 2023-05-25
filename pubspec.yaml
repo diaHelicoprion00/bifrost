@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   authentication:
     path: packages/authentication
+  cache:
+     path: packages/cache
   cupertino_icons: ^1.0.2
 
 dev_dependencies:

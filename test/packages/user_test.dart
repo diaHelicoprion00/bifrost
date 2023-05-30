@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   /// A suite of tests to ensure that the [User] model works as intended.
-  group('User Model', () {
+  group('User', () {
     const userId = 'mock-id';
     const userName = 'mock-name';
     const userEmail = 'mockname@mockmail.com';

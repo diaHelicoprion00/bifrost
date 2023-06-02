@@ -13,7 +13,9 @@ dependencies:
   authentication:
     path: packages/authentication
   cache:
-     path: packages/cache
+    path: packages/cache
+  form_inputs:
+    path: packages/form_inputs
   cupertino_icons: ^1.0.2
 
 dev_dependencies:

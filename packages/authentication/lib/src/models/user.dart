@@ -28,7 +28,7 @@ class User extends Equatable{
   /// Getter to determine whether a user is empty.
   bool get isEmpty => this == User.empty;
 
-  /// List of properties to determine if multiple users are equal
+  /// List of properties to distinguish between multiple users.
   @override
   List<Object?> get props => [email, id, name];
 }

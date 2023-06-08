@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 
-/// {@template}
+/// {@template AppBlocObserver}
 /// A BlocObserver to observe state changes in the App Class.
 /// {@endtemplate}
 class AppBlocObserver extends BlocObserver{

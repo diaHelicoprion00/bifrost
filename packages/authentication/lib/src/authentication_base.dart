@@ -129,7 +129,7 @@ class Authentication {
 extension on firebase_auth.User {
   /// Returns a [User] from [firebase_auth.User]
   User get toUser {
-    return User(id: uid, email: email, name: displayName);
+    return User(id: uid, email: email, name: displayName, photo: photoURL);
   }
 }
 

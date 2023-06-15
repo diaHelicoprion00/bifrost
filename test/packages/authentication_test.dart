@@ -296,6 +296,7 @@ void main() {
         final firebaseUser = MockFirebaseUser();
         when(() => firebaseUser.uid).thenReturn(_mockFirebaseUserUid);
         when(() => firebaseUser.email).thenReturn(_mockFirebaseUserEmail);
+        when(() => firebaseUser.photoURL).thenReturn(null);
         when(() => firebaseAuth.authStateChanges())
             .thenAnswer((_) => Stream.value(firebaseUser));
         await expectLater(

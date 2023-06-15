@@ -10,7 +10,8 @@ class User extends Equatable{
   const User({
     required this.id,
     this.email,
-    this.name
+    this.name,
+    this.photo
 });
 
   /// The current user's email address.
@@ -22,6 +23,9 @@ class User extends Equatable{
   /// The current user's id.
   final String id;
 
+  /// The current user's photo URL.
+  final String? photo;
+
   /// Empty user which represents an unauthenticated user.
   static const empty = User(id: '');
 
@@ -30,5 +34,5 @@ class User extends Equatable{
 
   /// List of properties to distinguish between multiple users.
   @override
-  List<Object?> get props => [email, id, name];
+  List<Object?> get props => [email, id, name, photo];
 }

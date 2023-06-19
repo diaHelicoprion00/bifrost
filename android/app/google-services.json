@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "990621394160",
+    "project_id": "bifrost-00",
+    "storage_bucket": "bifrost-00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990621394160:android:beceeca71c9f6fd1ea0e35",
+        "android_client_info": {
+          "package_name": "com.example.bifrost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990621394160-v61jkoi7quj82nbntiun7igv04kgbes5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bifrost",
+            "certificate_hash": "752ba6e2854f5278248a531be7b597fc5a7bef38"
+          }
+        },
+        {
+          "client_id": "990621394160-mcu6ki2kua789erv6pvmcj1jbr1ma46i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwGd1DE6MDYjEVBBkrDPJc6cAbJsqgM6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990621394160-mcu6ki2kua789erv6pvmcj1jbr1ma46i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

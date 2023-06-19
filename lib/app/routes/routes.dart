@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:bifrost/app/app.dart';
-import 'package:bifrost/home/home.dart';
+import 'package:bifrost/home/view/home_page.dart';
 import 'package:bifrost/login/login.dart';
 
 /// Returns a page route depending on the AppStatus state.

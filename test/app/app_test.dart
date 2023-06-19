@@ -1,5 +1,5 @@
 import 'package:bifrost/app/app.dart';
-import 'package:bifrost/home/home.dart';
+import 'package:bifrost/home/view/home_page.dart';
 import 'package:bifrost/login/login.dart';
 
 import 'package:flutter/material.dart';

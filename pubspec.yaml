@@ -16,6 +16,8 @@ dependencies:
     path: packages/cache
   form_inputs:
     path: packages/form_inputs
+  user_information_api:
+    path: packages/user_information_api
   cupertino_icons: ^1.0.2
   bloc: ^8.1.0
   equatable: ^2.0.3

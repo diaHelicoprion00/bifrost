@@ -30,7 +30,7 @@ class UserInformation extends Equatable {
     this.educationYear = ''})
       : assert(
   id == null || id.isNotEmpty,
-  'id can not be null and should be empty',
+  'id can either be null or not empty',
   ),
         id = id ?? const Uuid().v4();
 
@@ -58,8 +58,12 @@ class UserInformation extends Equatable {
 
   }
 
+  /// returns an empty UserInformation object
+  static UserInformation empty() =>  UserInformation(id: '0000', username: '');
+
   /// Deserializes the given [JsonMap] into a [UserInformation].
   static UserInformation fromJson(JsonMap json) => _$UserInformationFromJson(json);
+
 
   /// Converts this [UserInformation] into a [JsonMap].
   JsonMap toJson() => _$UserInformationToJson(this);

@@ -1,0 +1,22 @@
+name: local_storage_user_information_api
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.1
+
+# Add regular dependencies here.
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.7.0
+  rxdart: ^0.27.5
+  shared_preferences: ^2.0.15
+  user_information_api:
+    path: ../user_information_api
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
